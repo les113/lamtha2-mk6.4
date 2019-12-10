@@ -1,0 +1,14 @@
+/*
+stylesheet for ie8 and below which dont support media queries - adopts a fixed 960px width 
+by repeating those styles which are included within media queries in main stylesheet
+*/
+
+#hero_shadow {background-image: url(images/hero_shdw_960.png);margin:0 auto; width:960px; height:24px;}
+.slide, .firstslide  {width:960px;height:300px;}
+
+/* page content */
+
+.portfoliothmbs img {display:inline; margin:16px; width:150px;height:120px}
+
+.mainmenu li{display:inline;}
+
